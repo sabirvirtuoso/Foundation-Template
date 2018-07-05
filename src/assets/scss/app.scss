@@ -3,7 +3,8 @@
 @import 'settings';
 @import 'foundation';
 @import 'motion-ui';
-@import 'components/icons/foundation-icons';
+@import 'components/custom';
+//@import 'components/icons/foundation-icons';
 
 @include foundation-global-styles;
 @include foundation-grid;

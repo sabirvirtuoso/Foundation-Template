@@ -74,6 +74,7 @@ $foundation-palette: (
   success: #3adb76,
   warning: #ffae00,
   alert: #cc4b37,
+  splash: #fefefe,
 );
 $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
@@ -329,7 +330,8 @@ $callout-link-tint: 30%;
 $card-background: $white;
 $card-font-color: $body-font-color;
 $card-divider-background: $light-gray;
-$card-border: 1px solid $light-gray;
+//$card-border: 1px solid $light-gray;
+$card-border: none;
 $card-shadow: none;
 $card-border-radius: $global-radius;
 $card-padding: $global-padding;
@@ -519,12 +521,12 @@ $maincontent-class: 'off-canvas-content';
 
 $orbit-bullet-background: $medium-gray;
 $orbit-bullet-background-active: $dark-gray;
-$orbit-bullet-diameter: 1.2rem;
+$orbit-bullet-diameter: 0.6rem;
 $orbit-bullet-margin: 0.1rem;
-$orbit-bullet-margin-top: 0.8rem;
+$orbit-bullet-margin-top: 0rem;
 $orbit-bullet-margin-bottom: 0.8rem;
 $orbit-caption-background: rgba(41,56,128,0.77);
-$orbit-caption-padding: 1rem;
+$orbit-caption-padding: 0.5rem;
 $orbit-control-background-hover: transparent;
 $orbit-control-padding: 1rem;
 $orbit-control-zindex: 10;
@@ -659,7 +661,7 @@ $prototype-border-radius: rem-calc(3);
 $prototype-separator-breakpoints: $global-prototype-breakpoints;
 $prototype-separator-align: center;
 $prototype-separator-height: rem-calc(2);
-$prototype-separator-width: 3rem;
+$prototype-separator-width: 8rem;
 $prototype-separator-background: $primary-color;
 $prototype-separator-margin-top: $global-margin;
 

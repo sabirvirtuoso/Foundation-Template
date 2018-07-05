@@ -1,0 +1,158 @@
+.top-bar-menu-item, .partner-with-us {
+    font-family: Helvetica;
+    font-size: 13;
+    font-weight: bold;
+}
+
+.partner-with-us {
+   color: white;
+   background: #293880;
+}
+
+.partner-with-us:hover, .partner-with-us:focus {
+    background: white;
+}
+
+.primary-background {
+    background: #293880;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .top-bar .top-bar-left {
+    display: none;
+  }
+}
+
+.orbit-container {
+  height: auto;
+}
+
+#splash-container {
+  height: 500px;
+}
+
+#splash-caption {
+	bottom: 0;
+	right: 0;
+	width: 40%;
+	max-height: 100%;
+    min-height: 40%;
+}
+
+.client-content-image {
+    height: 75px; 
+    width: 75px; 
+    -moz-border-radius: 35px; 
+    border-radius: 35px;
+}
+
+@media screen and (max-width: 768px) {
+    
+    #splash-caption {
+        width: 100%;    
+    }
+    
+    #splash-caption > div {
+        text-align: center;
+    }
+    
+    .orbit-caption > h1, .orbit-caption > h4 {
+        text-align: center;
+    }
+}
+
+/*
+@media screen and (max-width: 480px) {
+
+    #client-content {
+        width: 100%;
+        top: 0;
+    }
+    
+}
+*/
+
+/*
+h1.underline:after {
+    content:' ';
+    display: block;
+    border: 2px solid #505083;
+    width: 20%;
+    position: relative;
+    left: 40%;
+}
+*/
+
+.tech-slideshow {
+    height: 146px;
+    max-width: 1024px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+}
+
+.tech-slideshow > div {
+    height: 146px;
+    width: 3240px;
+    background: url(../img/collage.png);
+    position: absolute;
+    transform: translate3d(0, 0, 0);
+}
+
+.tech-slideshow .mover {
+    animation: moveSlideshow 20s linear infinite;
+}
+
+@keyframes moveSlideshow {
+    100% { 
+        transform: translateX(-50%);  
+    }
+}
+
+#partner-with-us-container { 
+    background: #f1f1f1f1;
+}
+
+#partner-with-us-heading, #partner-with-us-content, #partner-with-us-button { 
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#contact-us {
+    background: #686868;
+}
+
+.contact-us-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.contact-us-content, .copyright-content {
+    color: white;
+}
+
+#copyright {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #4A4A4A;
+}
+
+.separator-center-white {
+  text-align: center !important; }
+  .separator-center-white::before, .separator-center-white::after {
+    display: table;
+    content: ' '; }
+  .separator-center-white::after {
+    clear: both; }
+  .separator-center-white::after {
+    position: relative !important;
+    width: 8rem;
+    border-bottom: 0.125rem solid white;
+    margin: 1rem auto 0; }
+
+  .quote-inline-marks {
+    font-size: rem-calc(100);
+    color: white;
+    line-height: 3.5rem;
+  }

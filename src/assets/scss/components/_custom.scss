@@ -50,6 +50,25 @@
     min-height: 450px;   
 }
 
+.show-for-extra-large {
+    display: none;
+}
+
+.hide-for-extra-large {
+    display: block;
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .hide-for-extra-large {
+        display: none;
+    }
+    
+    .show-for-extra-large {
+        display: block;   
+    }
+}
+
 @media screen and (max-width: 1024px) {
     
     .orbit-figure {
@@ -67,7 +86,7 @@
         text-align: center;
     }
     
-    .orbit-caption > h1, .orbit-caption > h4 {
+    .orbit-caption > h1, .orbit-caption > p {
         text-align: center;
     }
     

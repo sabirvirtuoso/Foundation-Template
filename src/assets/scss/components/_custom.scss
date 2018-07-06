@@ -46,6 +46,17 @@
     border-radius: 35px;
 }
 
+.orbit-figure {
+    min-height: 450px;   
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .orbit-figure {
+        min-height: 550px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     
     #splash-caption {
@@ -59,18 +70,21 @@
     .orbit-caption > h1, .orbit-caption > h4 {
         text-align: center;
     }
+    
+    .orbit-figure {
+        min-height: 650px;
+    }
 }
 
-/*
+
 @media screen and (max-width: 480px) {
 
-    #client-content {
-        width: 100%;
-        top: 0;
+    .orbit-figure {
+        min-height: 750px;
     }
     
 }
-*/
+
 
 /*
 h1.underline:after {
